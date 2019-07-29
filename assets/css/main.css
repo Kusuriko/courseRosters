@@ -1,0 +1,271 @@
+#allRostersRosterList{
+	margin-bottom: 10px;
+}
+
+i.fa-download{
+	color:#FF0000;
+}
+
+i.fa-envelope{
+	color:#F5D33B;
+}
+
+i.fa-table{
+	color:#22B547;
+}
+
+i.fa-plus-circle{
+	color:#22AB45;
+}
+
+i.fa-plus{
+	color:#22AB45;
+}
+
+i.fa-times-circle{
+	vertical-align: middle;
+	color: #DE3E4E;
+}
+
+i.fa-times-circle:hover{
+	color: #3382ED;
+}
+
+i.fa-times{
+	color: #DE3E4E;
+	vertical-align: middle;
+}
+
+i.fa-times:hover{
+	color: #3382ED;
+}
+
+#currentBtn{
+	margin-top: 10px;
+}
+
+#helpBtn{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.allRosterLabel{
+	font-size: 130%;
+}
+
+#emailBody{
+	height: 150px;
+}
+
+.emailElement{
+	margin-top: 10px;
+}
+
+#sendButton{
+	margin-top: 10px;
+}
+
+.currentLabel{
+	color:#0645AD;
+	text-decoration: underline;
+	margin-right: 10px;
+	cursor:pointer;
+}
+
+.courseRosterBtn{
+	margin-left: 15px;
+}
+
+.emailBtn{
+	margin-left: -15px;
+
+}
+
+.studentIMG{
+  width: auto;
+  max-height: 130px;
+}
+
+.indiIMG{
+  width: 300px;
+  height: 375px;
+}
+
+#individualSubView{
+	text-align: center;
+	max-width:400px;
+	margin:0 auto;
+}
+
+#indiLabel{
+	font-size: 26px;
+}
+
+.indiTD{
+	font-weight:bold;
+}
+
+#indivTable{
+	margin-left:auto;
+  margin-right:auto;
+  text-align: left;
+}
+
+#indivTable td{
+	text-align: left;
+}
+
+#indiNav{
+	text-align: center;
+	max-width:400px;
+	margin:0 auto;
+}
+
+#helpContainer{
+	padding: 30px;
+}
+
+#helpTitle{
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+.helpPara{
+	margin-left: 20px;
+}
+
+.helpSubTitle{
+	font-size: 18px;
+}
+
+#helpBtnTable td{
+	padding:10px;
+}
+
+#rosterTable tbody > tr > td{
+	vertical-align: middle;
+}
+
+#rosterOptions > *{
+	display:inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+@media (max-width: 900px) {
+	.dept {
+    display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;
+	}
+
+	.class {
+    display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;
+	}
+
+	.major {
+    display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;
+	}
+
+ }
+
+ @media (max-width: 740px) {
+  .bannerID {
+    display:none;
+		width:0;
+		height:0;
+		opacity:0;
+		visibility: collapse;
+	}
+
+ }
+
+.email-pill{
+	display: inline-block;
+	white-space: nowrap;
+	background-color: #FFEEAA;
+	border-radius: 10px;
+	padding: 4px 10px;
+	margin: 5px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #555555;
+	border: 1px solid #EECC66;
+}
+
+.email-box{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+}
+
+.indi-box{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+}
+
+.remove-email{
+	display: inline-block;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+.courseEmailBox{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  margin-left: 5px;
+}
+
+.current-div{
+	padding: 5px;
+}
+
+fieldset.current-border {
+  border: 1px groove #DDDDDD !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow:  0 0 0 0 #000000;
+          box-shadow:  0 0 0 0 #000000;
+}
+
+legend.current-border {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  width:inherit;
+  padding:0 10px;
+  border-bottom:none;
+}
+
+#loading{
+  position:fixed;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background-color:#666666;
+  background-image:url('../images/ajax-loader.gif');
+  background-repeat:no-repeat;
+  background-position:center;
+  z-index:10000000;
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
